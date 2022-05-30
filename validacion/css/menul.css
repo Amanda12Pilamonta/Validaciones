@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+ 
+body{
+	background:#0b2027;
+	font-family: verdana;
+	line-height: 18px;
+}
+ 
+a{
+	text-decoration: none;
+	color: #fff;
+}
+ 
+.btn-menu{
+	display: block;
+	padding: 20px;
+	background:#0d2c44;
+	color: #fff;
+}
+ 
+header#menu{
+	position: absolute;
+	width: 170px;
+	height: 100%;
+	background-color: #1a95d5;
+}
+ 
+header#logo{	
+	margin: 10px;
+}
+ 
+header#menu .menu{
+	width: 100%;
+}
+ 
+header#menu ul{
+	list-style: none;
+}
+ 
+header#menu .menu li a{
+	color: #494949;
+	display: block;
+	padding: 15px 20px;
+	background:#1a95d5;
+}
+ 
+header#menu .menu li a:hover{
+	background:#e9e9e9;
+	color: #494949;
+}
+ 
+header#menu .menu .icono{
+	font-size: 12px;
+	line-height: 18px;
+}
+ 
+header#menu .menu .icono.izquierda{
+	float: left;
+	margin-right: 10px;
+}
+ 
+header#menu .menu .icono.derecha{
+	float: right;
+	margin-left: : 10px;
+}
+ 
+header#menu .menu ul{
+	display: none;
+}
+ 
+header#menu .menu ul li a{
+	background:#fff;
+	color: #494949;
+}
+ 
+header#menu .menu  ul li acccccccc{
+	background:#e9e9e9;
+	color: #fff;
+}
+ 
+header#menu .menu .activado > a{
+	background:#e9e9e9;
+	color: #494949;
+}
